@@ -48,6 +48,12 @@ fi
 
 wget https://ia801006.us.archive.org/17/items/plantsvs.zombies_201909/Plants%20vs.%20Zombies.zip
 apt install wine
+Y
+
+sudo dpkg --add-architecture i386 
+sudo apt-get update
+sudo apt-get install wine32:i386
+
 
 echo "\n\n\n\n\n\n\nInstallation completed."
 
