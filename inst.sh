@@ -47,7 +47,7 @@ else
 fi
 
 wget https://ia801006.us.archive.org/17/items/plantsvs.zombies_201909/Plants%20vs.%20Zombies.zip
-
+apt install wine
 
 echo "\n\n\n\n\n\n\nInstallation completed."
 
