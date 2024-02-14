@@ -24,6 +24,7 @@ install_if_not_installed "thunderbird"
 install_if_not_installed "kmail"
 install_if_not_installed "wine"
 install_if_not_installed "build-essential"
+install_if_now_installed "qutebrowser"
 
 if ! dpkg -l | grep -q discord
 then
@@ -53,14 +54,14 @@ Y
 sudo dpkg --add-architecture i386 
 sudo apt-get update
 sudo apt-get install wine32:i386
-
+sudo apt install qutebrowser
 
 echo "\n\n\n\n\n\n\nInstallation completed."
 
 echo "Installed applications:"
-echo "- Vector Editor: Inkscape"
+echo "- Vector Editor: Inkscape,libreoffice-draw"
 echo "- Raster Editors: GIMP, Krita"
 echo "- Media Players: VLC, Parole"
 echo "- Discord, skype"
 echo "- Thunderbird, kmail"
-
+echo "- firefox , qutebrowser"
